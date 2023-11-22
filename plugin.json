@@ -1,10 +1,10 @@
 {
-    "name": "catSCII facts",
+    "name": "The catSCII artist",
     "version": "0.0.1",
     "description": "Learn random facts with the catSCII artist.",
     "author_name": "Aline",
     "author_url": "https://it.linkedin.com/in/adelina-georgieva",
-    "plugin_url": "https://github.com/kodaline/the_catscii_artist",
+    "plugin_url": "https://github.com/kodaline/the-catSCII-artist",
     "tags": "cat, education, facts, ascii art, fun",
     "thumb": "https://github.com/kodaline/the-catSCII-artist/blob/main/the-catscii-artist-logo.png?raw=true"
 }
