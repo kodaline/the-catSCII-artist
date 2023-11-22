@@ -1,10 +1,10 @@
 {
-    "name": "The Catscii Artist",
+    "name": "catSCII facts",
     "version": "0.0.1",
-    "description": "Description of the_catscii_artist.",
-    "author_name": "Me",
-    "author_url": "https://mywebsite.me",
-    "plugin_url": "https://github.com/my_name/the_catscii_artist",
-    "tags": "cat, template, example",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/the_catscii_artist.png"
+    "description": "Learn random facts with the catSCII artist.",
+    "author_name": "Aline",
+    "author_url": "https://it.linkedin.com/in/adelina-georgieva",
+    "plugin_url": "https://github.com/kodaline/the_catscii_artist",
+    "tags": "cat, education, facts, ascii art, fun",
+    "thumb": "https://raw.githubusercontent.com/kodaline/the_catscii_artist-logo.png"
 }

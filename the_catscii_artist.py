@@ -60,5 +60,4 @@ def the_catscii_artist(tool_input, cat):
     else:
         log.error("Error:", response.status_code, response.text)
         output = "No funny facts today, meowy."
-    log.error(output)
     return output
