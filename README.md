@@ -6,7 +6,7 @@ Ask the Cheshire Cat for a random fact and wait!
 ## Usage
 
 1. Install the plugin
-2. Set your NINJAS_API_KEY in the plugin settings ([ninjas](api-ninjas.com))
+2. Set your NINJAS_API_KEY in the plugin settings ([ninjas](https://api-ninjas.com))
 3. and have fun!
 
 ## Notes
