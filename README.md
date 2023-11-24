@@ -1,4 +1,15 @@
-# The catSCII Artist
+```
+                                            __________________
+                                          | the catSCII artist |
+                                            ==================
+                                                            \
+                                                             \
+                                                               ^__^
+                                                               (oo)\_______
+                                                               (__)\       )\/\
+                                                                   ||----w |
+                                                                   ||     ||
+```
 
 The catSCII artist is a plugin that gives you random facts and uses the `cowsay` package giving them back in ascii art.
 Ask the Cheshire Cat for a random fact and wait!
