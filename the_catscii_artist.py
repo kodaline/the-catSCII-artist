@@ -19,8 +19,8 @@ class MySettings(BaseModel):
     )
 
 @plugin
-def settings_schema():
-    return MySettings.model_json_schema()
+def settings_model():
+    return MySettings
 
 def cat_one():
     return r"""
