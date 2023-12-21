@@ -1,4 +1,4 @@
-<pre style="display: flex; justify-content: center;">
+<pre style="text-align: center;">
       |\      _,,,---,,_
 ZZZzz /,`.-'`'    -.  ;-;;,_
      |,4-  ) )-,_. ,\ (  `'-'
