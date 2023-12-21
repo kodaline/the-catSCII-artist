@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/kodaline/the-catSCII-artist/blob/main/img/the_catscii_artist_logo.png?raw=true" />
+  <img src="https://github.com/kodaline/the-catSCII-artist/blob/develop/img/the_catscii_artist_logo.png?raw=true" />
 </p>
 
 # Introduction
