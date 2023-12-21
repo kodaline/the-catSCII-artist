@@ -23,7 +23,7 @@ Once you have setup the `cat`, you need to:
 
 4. and then just have fun!
 
-If you want to dive into the plugin, consider taking a look at [dive into](dive_into.md) readme.
+If you want to dive into the plugin, consider taking a look at [dive into](dive.md) readme.
 
 # Credits
 
