@@ -41,7 +41,7 @@ The plugin sets the following settings:
 - `cats`: activate or deactivate the use of cats ascii art instead of default cowsay ones.
 
 <p>
-  <img src="https://github.com/kodaline/the-catSCII-artist/blob/develop/img/the_catscii_artist_settings.png"/>
+  <img src="https://github.com/kodaline/the-catSCII-artist/blob/main/img/the_catscii_artist_settings.png"/>
 </p>
 
 ### Cat Decorators
