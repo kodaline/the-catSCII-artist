@@ -1,9 +1,11 @@
-<pre style="text-align: center;">
+<div align="center">
+<pre>
       |\      _,,,---,,_
 ZZZzz /,`.-'`'    -.  ;-;;,_
      |,4-  ) )-,_. ,\ (  `'-'
     '---''(_/--'  `-'\_)
 </pre>
+</div>
 
 # Dive into
 
