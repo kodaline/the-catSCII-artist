@@ -17,7 +17,7 @@ Once you have setup the `cat`, you need to:
 
 1. Install the plugin (`Admin page` -> `Plugins tab`)
 
-2. Set your NINJAS_API_KEY in the plugin settings ([ninjas](https://api-ninjas.com))
+2. Set your NINJAS_API_KEY in the plugin settings ([ninjas](https://api-ninjas.com)) or use the `danger_zone` by generating facts directly with the cat!
 
 3. Optionally, deactivate the cats ascii art if you want to use default cowsay animals
 
@@ -31,10 +31,12 @@ If you want to dive into the plugin, consider taking a look at [dive into](dive.
 
 # TODO
 
-- add custom ascii art support by using the plugin settings or by directly uploading the `.txt` file into the cat's declarative memory
+- 🔲 add custom ascii art support by using the plugin settings or by directly uploading the `.txt` file into the cat's declarative memory
 
-- use the files into `cats` folder to import the cats ascii arts
+- 🔲 use the files into `cats` folder to import the cats ascii arts
 
-- translation of the random fact in a custom language
+- 🔲 translation of the random fact in a custom language
 
-- eventually drop the use of external API service for the random facts (ninja)
+- 🔲 when generating facts with the cat, give the list of facts already said, so to exclude repetitions
+
+- ✅ eventually drop the use of external API service for the random facts (ninja)
