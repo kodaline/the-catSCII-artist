@@ -37,6 +37,6 @@ If you want to dive into the plugin, consider taking a look at [dive into](dive.
 
 - 🔲 translation of the random fact in a custom language
 
-- 🔲 when generating facts with the cat, give the list of facts already said, so to exclude repetitions
+- ✅ when generating facts with the cat, give the list of facts already said, so to exclude repetitions
 
 - ✅ eventually drop the use of external API service for the random facts (ninja)

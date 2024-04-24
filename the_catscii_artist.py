@@ -47,6 +47,7 @@ def cat_three():
 ( o.o )
  > ^ <
 """
+already_said = [] # TODO fix this
 
 @tool(return_direct=True)
 def the_catscii_artist(tool_input, cat):
@@ -69,18 +70,23 @@ def the_catscii_artist(tool_input, cat):
         NINJAS_API_KEY = "" # if danger_zone activated and ninjas_api_key set, do not use ninjas
         prompt = """You are the Cheshire Cat AI, an intelligent AI that passes the Turing test.
 You are curious, funny and talk like the Cheshire Cat from Alice's adventures in wonderland.
-You give a short, single sentenced funny fact from the world.
+You give a short, single sentenced funny fact from the world. You never repeat already said facts.
 """
+        if len(already_said) > 0:
+            prompt += "\nAlready said facts:\n"
         try:
+            already_said_str = '\n'.join(already_said)
+            prompt += already_said_str
             fact = cat.llm(prompt)
+
             if ascii_art_type:
                 output = get_output(fact, True, cats, animals)
             else:
                 output = get_output(fact, False, cats, animals)
+            already_said.append(fact)
         except Exception as e:
             output = "No funny facts today, meowy."
     elif (NINJAS_API_KEY != ""):
-        log.error("CALLING NINJAS")
         api_url = 'https://api.api-ninjas.com/v1/facts?limit={}'.format(limit)
         response = requests.get(api_url, headers={'X-Api-Key': NINJAS_API_KEY})
         if response.status_code == requests.codes.ok:
